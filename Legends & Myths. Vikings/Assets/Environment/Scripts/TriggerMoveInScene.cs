@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerEvent : MonoBehaviour {
+public class TriggerMoveInScene : MonoBehaviour {
+    
     //public int level;
     public Vector3 destination;
 
