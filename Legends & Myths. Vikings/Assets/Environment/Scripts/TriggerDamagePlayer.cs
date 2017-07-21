@@ -10,8 +10,7 @@ public class TriggerDamagePlayer : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
-            collision.GetComponent<Stats>().healthPoints = collision.GetComponent<Stats>().healthPoints-damage;
-            collision.GetComponent<Stats>().UpdateText();
+            PlayerInfo.data.healthPoints -= damage;
         }
     }
 }
