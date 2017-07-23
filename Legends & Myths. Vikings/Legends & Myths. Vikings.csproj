@@ -84,6 +84,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Battle\Scripts\Battle.cs" />
+    <Compile Include="Assets\Environment\Scripts\MonsterEncounter.cs" />
     <Compile Include="Assets\Environment\Scripts\TriggerDamagePlayer.cs" />
     <Compile Include="Assets\Environment\Scripts\TriggerMoveInScene.cs" />
     <Compile Include="Assets\Player\Scripts\Navigation.cs" />

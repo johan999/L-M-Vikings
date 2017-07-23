@@ -10,7 +10,7 @@ public class TriggerDamagePlayer : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
-            PlayerInfo.data.healthPoints -= damage;
+            PlayerInfo.info.healthPoints -= damage;
         }
     }
 }

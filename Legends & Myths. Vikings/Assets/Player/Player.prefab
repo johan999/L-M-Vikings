@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 4137860675076130}
   - component: {fileID: 212340189407889410}
   m_Layer: 0
-  m_Name: Sprite
+  m_Name: PlayerSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -231,6 +231,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.05
+  moving: 0
+  battle: 0
 --- !u!114 &114641573763872776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -243,10 +245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPoints: 100
+  experience: 0
   attack: 10
-  defence: 5
-  speed: 12
-  hp: {fileID: 0}
 --- !u!124 &124370455055566660
 Behaviour:
   m_ObjectHideFlags: 1
