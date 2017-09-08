@@ -9,6 +9,7 @@ public class Navigation : MonoBehaviour
     public float moveSpeed = 0.001f;
     public bool moving = false;
     public bool battle = false;
+    public bool canMove;
     // Use this for initialization
     void Start()
     {
@@ -22,6 +23,11 @@ public class Navigation : MonoBehaviour
         //World navigation
         if (!battle)
         {
+            if (!canMove)
+            {
+                return;
+            }
+
             moving = false;
             //Up
             if (Input.GetKey("w"))

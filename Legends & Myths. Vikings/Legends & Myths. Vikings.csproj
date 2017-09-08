@@ -90,6 +90,13 @@
     <Compile Include="Assets\Environment\Scripts\TriggerMoveInScene.cs" />
     <Compile Include="Assets\Player\Scripts\Navigation.cs" />
     <Compile Include="Assets\Player\Scripts\PlayerInfo.cs" />
+    <Compile Include="Assets\UI\ActivateTextAtLine.cs" />
+    <Compile Include="Assets\UI\TextBoxManager.cs" />
+    <Compile Include="Assets\UI\TextImporter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NPC\Dialogue\Dialogue.txt" />
+    <None Include="Assets\NPC\Dialogue\MalligeMagnus.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
