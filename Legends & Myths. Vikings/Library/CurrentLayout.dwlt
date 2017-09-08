@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 711, y: 471}
   m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 30
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 471}
   m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 31
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 321}
   m_MaxSize: {x: 4004, y: 8021}
   vertical: 1
-  controlID: 118
+  controlID: 97
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,8 +227,8 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 758
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 13}
@@ -390,20 +390,20 @@ MonoBehaviour:
     height: 420
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 52430000
-    m_LastClickedID: 17234
-    m_ExpandedIDs: c88dfefff48efeff0ea4feffaeb2feff2eb5feff30b5feff68eafeff72ebfeff1403ffff6615fffff827ffffbc2dffffca52fffffc61fffffe61ffff9678ffff9878ffff70bcffff2ebfffffb0d6ffff46eaffff76f5ffff78f5ffffecf8ffffdefbfffff4ffffff00000000ce270000da350000404300005a430000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: dcfbffffdefbfffff4ffffff00000000b4250000e4250000ee250000fe25000002260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Allies
-      m_OriginalName: Allies
+      m_Name: MalligeMagnus
+      m_OriginalName: MalligeMagnus
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -53828
+      m_UserData: 9642
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -452,20 +452,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/NPC/Dialogue
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/NPC/Dialogue
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Johan\Documents\GitHub\L-M-Vikings\Legends & Myths.
     Vikings
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b8240000
-    m_LastClickedID: 9400
-    m_ExpandedIDs: 00000000b8240000062500000e2500004025000042250000622500003a26000000ca9a3bffffff7f
+    m_SelectedIDs: 80250000
+    m_LastClickedID: 9600
+    m_ExpandedIDs: 00000000bc240000ee240000122500001c2500005a2500008e26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,7 +481,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 8}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -493,7 +493,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b8240000062500004025000042250000622500003a260000
+    m_ExpandedIDs: 00000000bc240000ee240000122500001c2500005a2500008e260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,18 +524,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 00000000f8240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ActivateTextAtLine
+      m_OriginalName: ActivateTextAtLine
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11426
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
@@ -575,14 +575,14 @@ MonoBehaviour:
     width: 1276
     height: 737
   m_SceneLighting: 1
-  lastFramingTime: 3084.4603278642635
+  lastFramingTime: 3544.7014754852426
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.17936449, y: -0.70087004, z: -10}
+    m_Target: {x: -31.940197, y: 0.12404774, z: -10}
     speed: 2
-    m_Value: {x: 0.17936449, y: -0.70087004, z: -10}
+    m_Value: {x: -31.940197, y: 0.12404774, z: -10}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -609,9 +609,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.027403
+    m_Target: 14.926376
     speed: 2
-    m_Value: 11.027403
+    m_Value: 14.926376
   m_Ortho:
     m_Target: 1
     speed: 2
